@@ -1,0 +1,55 @@
+.h-13 .h2_main-menu_area {
+  background: whitesmoke !important;
+}
+
+.h-13 .main-menu > ul > li:first-child > a {
+  border-left: none !important;
+  color: black !important;
+}
+
+.h-13 .main-menu > ul > li > a {
+  border-left: none !important;
+  color: black !important;
+  font-size: 13px;
+  transition: all 0.45s ease-in-out;
+}
+
+.h-13 .main-menu > ul > li > a:hover {
+  border-bottom: 1px solid #000000;
+  transform: translateZ(1);
+  z-index: 12 !important;
+  padding-bottom: 0.001px;
+  background-color: none !important;
+  background: none !important;
+}
+
+.h-13 .main-menu > ul > li > a {
+  border-right: none !important;
+}
+.mega-menu {
+  background-color: white !important;
+}
+
+.home-2 .p-sign {
+  border: 0px;
+  color: #f5f5f5 !important;
+  background: #0a806b !important;
+}
+/* New Code By Shally */
+
+.h-13 .h2_main-menu_area {
+  background: none !important;
+}
+
+.h-13 .main-menu > ul > li > a {
+  font-weight: 200;
+}
+
+@media screen and (max-width: 786px) {
+  .cart-area.d-flex {
+    gap: 20px;
+  }
+  .list-item li a {
+    color: black;
+  }
+}

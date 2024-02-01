@@ -1,0 +1,82 @@
+#two-image {
+  display: inline-block !important;
+  width: 49.8% !important;
+  height: fit-content;
+}
+.first-div {
+  margin-right: 5px;
+}
+
+.rahul {
+  max-width: 250px !important;
+  border-radius: 50% !important;
+  border: 7px solid #00000029;
+  overflow: hidden;
+  max-height: 250px;
+  margin: 10px;
+  -webkit-box-shadow: 10px 10px 5px -9px rgba(186, 184, 186, 1);
+  -moz-box-shadow: 10px 10px 5px -9px rgba(186, 184, 186, 1);
+  box-shadow: 10px 10px 5px -9px rgba(186, 184, 186, 1);
+}
+@media screen and (max-width: 786px) {
+  .main-two-image {
+    flex-direction: column;
+    padding-bottom: 2rem !important;
+  }
+  #two-image {
+    width: 100% !important;
+    height: 50% !important;
+    margin-bottom: 10px !important;
+  }
+}
+.content-div2 {
+  position: relative;
+  left: 50px;
+  width: 35%;
+}
+
+.content-div2 h1 {
+  font-size: 2em;
+  font-weight: 500;
+  padding-bottom: 15px !important;
+}
+
+.content-div2 h1,
+.content-div p {
+  padding-bottom: 15px !important;
+}
+
+.content-div2 h5 {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin: 10px 0px;
+  padding: 5px 0px;
+  width: 50%;
+}
+
+.content-div2 button {
+  margin: 3px 10px 3px 0px;
+  padding: 16px 50px 16px 50px;
+  border-radius: 20px;
+  transition: all 1s ease-in-out;
+}
+
+.wrapper-content {
+  position: relative;
+  height: 0px;
+}
+.two-image-width {
+  width: 100% !important;
+}
+@media screen and (max-width: 400px) {
+  .content-div2 h1,
+  .content-div p {
+    padding-bottom: 0px !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .content-div2 h1,
+  .content-div p {
+    padding-bottom: 3px !important;
+  }
+}

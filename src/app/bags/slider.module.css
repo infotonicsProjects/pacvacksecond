@@ -1,0 +1,9 @@
+.maxHeight {
+  max-height: 600px !important;
+  width: 100%;
+}
+@media screen and (max-width: 786px) {
+  .maxHeight {
+    display: none !important;
+  }
+}

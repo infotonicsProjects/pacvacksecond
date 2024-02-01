@@ -1,0 +1,95 @@
+.about-website {
+  background-color: #f8f8f8;
+  padding: 0px;
+  margin: 0px;
+}
+
+.content-about {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first-content {
+  flex: 1;
+}
+
+.second-content {
+  flex: 1;
+}
+
+.heading-first-about {
+  text-align: baseline;
+  padding: 20px;
+  padding-left: 8.33%;
+}
+
+.heading-first-about h1 {
+  font-size: 3em;
+  padding: 40px;
+  font-weight: 500;
+}
+
+.heading-first-about p {
+  padding: 0px 40px 40px 40px;
+  font-size: 1.3em;
+}
+
+.first-second-content h3 {
+  text-align: baseline;
+  padding: 50px 50px 10px 10px;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.second-second-content h3,
+.third-second-content h3 {
+  text-align: baseline;
+  padding: 0px 50px 10px 10px;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.first-second-content p,
+.second-second-content p,
+.third-second-content p {
+  padding: 0px 50px 30px 10px;
+  text-align: baseline;
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 786px) {
+  .heading-first-about {
+    padding: 0px !important;
+    padding-left: 0px !important;
+  }
+  .content-about {
+    flex-direction: column !important;
+  }
+  .heading-first-about h1 {
+    padding-left: 20px;
+    font-size: 2em !important;
+  }
+  .heading-first-about p {
+    padding: 0px 40px 10px 20px !important;
+    font-size: 1em !important;
+  }
+  .first-second-content h3 {
+    font-size: 1.4em;
+    font-weight: 500;
+  }
+  .second-content {
+    padding-left: 10px !important;
+  }
+  .first-second-content p,
+  .second-second-content p,
+  .third-second-content p {
+    font-size: 1em !important;
+    font-weight: 200 !important;
+  }
+  .second-second-content h3,
+  .third-second-content h3 {
+    font-size: 1.4em !important;
+    font-weight: 500;
+  }
+}

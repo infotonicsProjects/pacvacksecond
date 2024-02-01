@@ -1,0 +1,107 @@
+.about-section {
+  background-color: #151515;
+  color: white;
+}
+
+.about-section-second {
+  background-color: #000;
+}
+
+.about-section-first {
+  display: flex;
+  padding: 100px 50px 50px 50px;
+  flex: 5;
+}
+
+.logo-div img {
+  padding-bottom: 50px;
+  max-width: 50px;
+}
+
+.logo-div h1 {
+  font-size: 1.5em;
+  font-size: 700;
+}
+
+.logo-div a {
+  text-decoration: underline !important;
+}
+
+.logo-div p {
+  font-size: 0.9em;
+  font-weight: 100;
+  padding-top: 15px;
+}
+
+.help-div p,
+.company-div p {
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.help-div li,
+.company-div li {
+  padding: 5px 5px 5px 0px;
+  font-weight: 100;
+  font-size: 0.99em;
+}
+
+.help-div a:hover,
+.company-div a:hover {
+  text-decoration: underline !important;
+  color: white !important;
+}
+
+.footerlinks li {
+  text-decoration: underline;
+  font-size: 0.9em;
+}
+
+.footerlinks a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.footerlinks a:hover {
+  color: #5c5c5c !important;
+  text-decoration: underline !important;
+}
+
+.reserved {
+  opacity: 0.6;
+}
+
+.payment img {
+  width: 80% !important;
+}
+
+.about-section-first ul li a {
+  color: white !important;
+}
+
+#btnControl {
+  display: none;
+}
+
+#btnControl:checked + #hide-show {
+  display: block !important;
+}
+
+@media screen and (max-width: 786px) {
+  .about-section-first {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about-section-first {
+    gap: 3rem !important;
+  }
+
+  .about-section-second {
+    flex-direction: column-reverse !important;
+  }
+}
+
+.width-100px {
+  max-width: 100px !important;
+}
